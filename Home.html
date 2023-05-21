@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <div id="navbar">
+        <h1>Home</h1>
+        <div id="logout">
+        <button window.location.href = './Login.html'>Login</button>
+        </div>
+    </div>
+    <div id="Byproducts"></div>
+
+
+
+    <script>
+
+        window.onload = function () {
+            var divToShowProduct = document.getElementById("Byproducts");
+            var finalData = "";
+
+            var products = document.getElementById("Products")
+            finalData += 'onclick = redirect '
+
+            localStorage.setItem("Byproduct",JSON.stringify(products))
+            var button = `button onlick logout()>Logout</button>`
+            var name 
+            
+        }
+    </script>
+</body>
+</html>
